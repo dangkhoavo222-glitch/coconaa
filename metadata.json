@@ -1,0 +1,6 @@
+{
+  "name": "COCONA - Nước Dừa Tươi Bến Tre",
+  "description": "Thương hiệu nước dừa tươi đóng hộp vô trùng 100% tự nhiên Bến Tre. Chuỗi lạnh 2°C – 8°C giao hỏa tốc 2 giờ nội thành TP.HCM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

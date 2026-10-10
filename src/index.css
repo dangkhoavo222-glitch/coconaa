@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #effdf1;
+    color: #121e17;
+  }
+}
+
+/* Smooth offset for fixed 80px header */
+section[id] {
+  scroll-margin-top: 90px;
+}
+
+/* Custom scrollbar for vertical product feed */
+.custom-scroll-y::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scroll-y::-webkit-scrollbar-track {
+  background: #e9f7ec;
+  border-radius: 9999px;
+}
+.custom-scroll-y::-webkit-scrollbar-thumb {
+  background: #1b4d3e;
+  border-radius: 9999px;
+}
+.custom-scroll-y::-webkit-scrollbar-thumb:hover {
+  background: #1c6c3f;
+}
+
+/* Hide scrollbar for carousel */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
